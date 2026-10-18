@@ -11,20 +11,6 @@ I design and build software end to end: machine-learning systems, full-stack web
 - **Infrastructure and DevOps.** Containerised deployments, CI/CD with GitHub Actions, Kubernetes and Helm, and monitoring with Prometheus, VictoriaMetrics, Loki and Grafana.
 - **Automation and tooling.** Serverless Telegram bots on Cloudflare Workers, Linux desktop utilities and hardware-support fixes.
 
-## Selected work
-
-Most of my professional work is in private repositories, so these are summaries without client details.
-
-| Project | What it does | Built with |
-|---|---|---|
-| **Recommender-system platform** | Hybrid recommender (collaborative, content-based, context-aware and GNN models) with a full pipeline from feature store to ranking, serving and monitoring, plus an [admin dashboard](https://github.com/m-mardani/RecommenderSystem-UI). | PyTorch Geometric, FAISS, LightGBM, MLflow, FastAPI, pgvector, Next.js |
-| **Multimodal emotion recognition** | Combines text, audio, EEG and video with transformer encoders and cross-modal attention. Predictions are explained with SHAP and Captum, and models are deployed on NVIDIA Jetson devices. | PyTorch, Hugging Face Transformers, ONNX / TensorRT, gRPC, Neo4j |
-| **Respiratory sound classification** *(M.Sc. research)* | Identifies eight respiratory conditions from breath-sound recordings (ICBHI dataset), with techniques for heavily imbalanced classes. | Ultralytics YOLOv11, librosa, imbalanced-learn |
-| **Satellite water-change detection** | Detects changes in surface water from Sentinel-2 imagery, with background processing and an interactive map. | FastAPI, PostGIS, rasterio, Celery, React, Leaflet |
-| **Secure data-gathering platform** | Stores files with envelope encryption, scans uploads for malware, keeps an audit log and publishes events through a Kafka outbox. | FastAPI, Kafka, MinIO, ClamAV, OpenTelemetry |
-| **Fleet monitoring stack** | Sets up metrics, logs and alerting for Linux, Windows and Kubernetes hosts with one command. | VictoriaMetrics, Loki, Grafana, Alertmanager, Helm |
-| **Project-management dashboard** | Tracks engineering projects with document registers, S-curve progress charts and an AI chat assistant ([UI](https://github.com/m-mardani/AgenticProjectManager-UI)). | React, TypeScript, TanStack Query, FastAPI, Keycloak |
-
 ## Open source
 
 | Repository | Description |
